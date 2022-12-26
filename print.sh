@@ -9,11 +9,3 @@ do
     cmd=`ps aux|grep processname|grep -v "grep"|wc -l`
 done
 echo "yes!"
-
-{
-  "createdBy": [],
-  "currentBranch": {
-    "state": "MERGED"
-  },
-  "needsReview": []
-}
